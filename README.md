@@ -16,12 +16,12 @@ It comes with Bootstrap SASS version and fontawesome.
 ##How to install
 **from zip:**
 1. download the [zip](https://github.com/gebeer/site-pwsage/archive/master.zip)
-2. extract the folder "site-pwbs" into a clean [ProcessWire](https://github.com/ryancramerdesign/ProcessWire) install's root folder
+2. extract the folder "site-pwsage" into a clean [ProcessWire](https://github.com/ryancramerdesign/ProcessWire) install's root folder
 3. during install of ProcessWire choose the profile "Processwire SAGE Site Profile" 
 
 **git clone:**
-1. copy [ProcessWire](https://github.com/ryancramerdesign/ProcessWire) to your projects root folder
-2. open a terminal in that root folder and execute `https://github.com/gebeer/site-pwsage.git`
+1. clone [ProcessWire](https://github.com/ryancramerdesign/ProcessWire) into your projects root folder
+2. open a terminal in that root folder and execute `git clone https://github.com/gebeer/site-pwsage.git`
 3. during install of ProcessWire choose the profile "Processwire SAGE Site Profile"
 
 ##Getting Started
@@ -30,7 +30,7 @@ After installation open ProcessWire's site/templates/ directory in a terminal an
 - execute `bower install` to install all bower components
 - execute `gulp` to build your assets. They will be pusblished in site/templates/dist/
 
-You should now see the site in a browser with all js and css applied
+You should now see the site in a browser with all js and css applied.
 
 ##The gulp Magic
 To have automated compilation of scss in the backgound and an updated browser window every time you change something in your code, execute `gulp watch` in a terminal.
