@@ -1,0 +1,43 @@
+{
+  "name": "sage",
+  "homepage": "https://github.com/gebeer/site-pwsage",
+  "authors": [
+    "Ben Word <gbr@gmx.net>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "jquery": "1.11.2",
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "bootstrap-sass-official": {
+      "main": [
+        "../../assets/styles/common/_bootstrap-custom.scss",
+        "./assets/javascripts/bootstrap/transition.js",
+        "./assets/javascripts/bootstrap/alert.js",
+        "./assets/javascripts/bootstrap/button.js",
+        "./assets/javascripts/bootstrap/carousel.js",
+        "./assets/javascripts/bootstrap/collapse.js",
+        "./assets/javascripts/bootstrap/dropdown.js",
+        "./assets/javascripts/bootstrap/modal.js",
+        "./assets/javascripts/bootstrap/tooltip.js",
+        "./assets/javascripts/bootstrap/popover.js",
+        "./assets/javascripts/bootstrap/scrollspy.js",
+        "./assets/javascripts/bootstrap/tab.js",
+        "./assets/javascripts/bootstrap/affix.js"
+      ]
+    },    
+    "fontawesome": {
+      "main": [
+        "./scss/font-awesome.scss"
+      ]
+    }
+
+  }
+}
