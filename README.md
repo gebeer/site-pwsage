@@ -43,7 +43,7 @@ To have automated compilation of scss in the backgound and an updated browser wi
 Once your site is ready for production, execute `gulp --production`, go to site/config.php and change `$config->env = 'development';` to `$config->env = 'production';`
 
 ##Credits
-This site profile was inspired by jlahijani's post ["How to Adapt WordPress Sage Starter Theme to ProcessWire (Video Tutorial)"](https://processwire.com/talk/topic/9624-how-to-adapt-wordpress-sage-starter-theme-to-processwire-video-tutorial/)
+This site profile was inspired by jlahijani's post ["How to Adapt WordPress Sage Starter Theme to ProcessWire (Video Tutorial)"](https://processwire.com/talk/topic/9624-how-to-adapt-wordpress-sage-starter-theme-to-processwire-video-tutorial/). I strongly recommend watching his tutorial video to get to know the development workflow.
 And of course credits go to [SAGE](https://roots.io/sage/) for setting up this awesome workflow.
 
 ##Notes
