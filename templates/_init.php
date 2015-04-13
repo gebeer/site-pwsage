@@ -15,6 +15,7 @@
  */
 $tmplPath = $config->urls->templates;
 $browserTitle = $page->get('browser_title|title');
+$metaDescription = ($page->summary) ? $page->summary : $browserTitle;
 $headline = $page->get('headline|title');
 $content = ''; 
 $homepage = $pages->get('/'); 
