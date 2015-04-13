@@ -32,12 +32,12 @@ After installation open ProcessWire's site/templates/ directory in a terminal an
 
 You should now see the site in a browser with all js and css applied.
 
+##The gulp Magic
+To have automated compilation of scss in the backgound and an updated browser window every time you change something in your code, execute `gulp watch` in a terminal.
+
 ##Control Bootstrap Components
 - in site/templates/assets/styles/common/_bootstrap-custom.scss you can control which Bootstrap CSS components get loaded. Just comment out the ones you don't need.
 - in site/templates/bower.json in the section "overrides"->"bootstrap-sass-official" you can control which Bootstrap JS components get included. Just delete the ones you don't need (be careful not to have a comma after the last one in the list)
-
-##The gulp Magic
-To have automated compilation of scss in the backgound and an updated browser window every time you change something in your code, execute `gulp watch` in a terminal.
 
 ##Ready for Production?
 Once your site is ready for production, execute `gulp --production`, go to site/config.php and change `$config->env = 'development';` to `$config->env = 'production';`
