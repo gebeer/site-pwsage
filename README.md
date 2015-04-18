@@ -34,6 +34,7 @@ You should now see the site in a browser with all js and css applied.
 
 ##The gulp Magic
 To have automated compilation of scss in the backgound and an updated browser window every time you change something in your code, execute `gulp watch` in a terminal.
+To make the automated browser update work, you need to add the url of your development site in [templates/assets/manifest.json](https://github.com/gebeer/site-pwsage/blob/master/templates/assets/manifest.json#L28)
 
 ##Control Bootstrap Components
 - in site/templates/assets/styles/common/_bootstrap-custom.scss you can control which Bootstrap CSS components get loaded. Just comment out the ones you don't need.
