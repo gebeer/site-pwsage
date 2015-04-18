@@ -25,6 +25,6 @@
     }
   },
   "config": {
-    "devUrl": "http://dev/pwsage"
+    "devUrl": "add your development url here"
   }
 }
